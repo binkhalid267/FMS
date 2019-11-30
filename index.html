@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food managements system</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="authur" content="bin khalid">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <!--created by bin khalid-->
+    <body>
+        <header>
+        <div>
+            <h1>Food managements system</h1>
+        </div>
+        <div>
+            <button type="button" onclick="myFromPopUp()">Make an order</button>
+        </div>
+    </header>
+        <div id="info">
+            <!--list of foods stocks-->
+            <h4>Lists Of Food That We Offered</h4>
+            <ul>
+                <li>Rice N100</li>
+                <li>Beans N100</li>
+                <li>Dodo N150</li>
+                <li>Pap N50</li>
+                <li>Meats N200</li>
+            </ul>
+            <!--form input page-->
+            <form action="" name="FMS" method="GET" target="_self">
+                <legend>Input Your Offer Below</legend>
+                <input type="text" name="offer" size="15" maxlength="30">
+                <input type="button" value="Order My Offer" onclick="myListItems()">
+            </form>
+        </div>
+        <div id="box">
+        </div>
+        <h2></h2>
+    </body>
+</html>
